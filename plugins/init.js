@@ -6,7 +6,8 @@ export default async function ({ isDev, env, req, store: { commit, state }, redi
     return
   }
   if (isDev) {
-    commit('setApiURI', 'http://localhost:4000')
+    // commit('setApiURI', 'http://localhost:4000')
+    commit('setApiURI', 'https://docs.api.nuxtjs.org')
   }
   // If SSR
   if (req) {
