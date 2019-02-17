@@ -1,8 +1,8 @@
 <template>
   <header class="Header">
     <nuxt-link class="Header__Logo" to="/">
-      <n-logo/>
-      <!-- <img src="~static/logo_nav.png" alt="Nuxt"/> -->
+      <!-- <n-logo/> -->
+      <img src="~static/logo_nav.png" alt="Nuxt"/>
       <h1 class="Header__Logo__Text">NUXTJS</h1>
     </nuxt-link>
     <div class="Header__Toggler">
@@ -51,6 +51,7 @@ export default {
   &__Logo {
     display: flex;
     align-items: center;
+    background-color: #000;
     @media (min-width: 991px) {
       width: 189px;
       border-right: 1px solid #dbdfe1;
