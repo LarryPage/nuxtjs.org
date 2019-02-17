@@ -1,4 +1,4 @@
-# nuxtjs.org
+# 官网DEMO
 
 Universal Vue.js Application built with [Nuxt.js](https://github.com/nuxt/nuxt.js).
 
